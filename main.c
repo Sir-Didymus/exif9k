@@ -26,7 +26,6 @@ int main(int argc, char* argv[]) {
             }
             else {
                 const char* path_str = argv[2];
-                printf("exif9k: renaming files in %s\n", path_str);
                 rename_photos(path_str);
             }
         }
